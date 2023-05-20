@@ -1,0 +1,8 @@
+name: dstoolbox
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - scikit-learn=1.2.1
+prefix: /Users/korbasg/opt/anaconda3/envs/dstoolbox
