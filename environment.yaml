@@ -1,8 +1,10 @@
-name: dstoolbox
+name: project-env
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=>3.10
   - ipykernel
   - scikit-learn=1.2.1
-prefix: /Users/korbasg/opt/anaconda3/envs/dstoolbox
+  - pandas
+  - matplotlib
